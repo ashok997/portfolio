@@ -1,6 +1,7 @@
 import React from "react";
 import Bio from "./Bio";
 import Projects from "./Projects";
+import Blogs from "./Blogs";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <header className="App-header">
           <Bio></Bio>
           <Projects></Projects>
+          <Blogs></Blogs>
         </header>
       </div>
     );
