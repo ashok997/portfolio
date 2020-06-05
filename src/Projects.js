@@ -7,17 +7,31 @@ export default class Projects extends Component {
   render() {
     return (
       <div>
-        <h1>Projects</h1>
-        <p> Some description</p>
+        <h3>Projects</h3>
         <CardDeck>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card.Img variant="top" src="../public/superfans-screenshot.png" />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>Superfans United</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Built with : React, Redux, Rails, Javascript
               </Card.Text>
+              <Button variant="primary">Watch Demo</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img variant="top" src="../public/superfans-screenshot.png" />
+            <Card.Body>
+              <Card.Title>Payment Tracker</Card.Title>
+              <Card.Text>Built with : Rails, Javascript, CSS</Card.Text>
+              <Button variant="primary">Watch Demo</Button>
+            </Card.Body>
+          </Card>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img variant="top" src="../public/superfans-screenshot.png" />
+            <Card.Body>
+              <Card.Title>Activation Tracker</Card.Title>
+              <Card.Text>Built with : Ruby on Rails, Omniauth</Card.Text>
               <Button variant="primary">Watch Demo</Button>
             </Card.Body>
           </Card>
