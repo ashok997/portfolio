@@ -8,10 +8,12 @@ export default class Projects extends Component {
     return (
       <div id="Projects">
         <h3>Projects</h3>
-        <img src="src/superfans-screenshot.png" />
         <CardDeck>
           <Card style={{ width: "20rem" }}>
-            <Card.Img variant="top" src="/src/superfans-screenshot.png" />
+            <Card.Img
+              variant="top"
+              src="https://i9.ytimg.com/vi/yOOxsFXYbcM/mq2.jpg?sqp=CJy9-vYF&amp;rs=AOn4CLAO5muOweo686sg2NyspJCm7A1LBQ"
+            />
             <Card.Body>
               <Card.Title>Superfans United</Card.Title>
               <Card.Text>
@@ -27,7 +29,10 @@ export default class Projects extends Component {
             </Card.Body>
           </Card>
           <Card style={{ width: "20rem" }}>
-            <Card.Img variant="top" src="../public/superfans-screenshot.png" />
+            <Card.Img
+              variant="top"
+              src="https://i9.ytimg.com/vi/A8ezaT_sj9I/mq2.jpg?sqp=CPTB-vYF&amp;rs=AOn4CLBU2FDXeB46ggOsJMO4I8bUlzZgxQ"
+            />
             <Card.Body>
               <Card.Title>Payment Tracker</Card.Title>
               <Card.Text>Built with : Rails, Javascript, CSS</Card.Text>
@@ -41,7 +46,10 @@ export default class Projects extends Component {
             </Card.Body>
           </Card>
           <Card style={{ width: "20rem" }}>
-            <Card.Img variant="top" src="../public/superfans-screenshot.png" />
+            <Card.Img
+              variant="top"
+              src="https://i9.ytimg.com/vi/zrCYUwBIV4A/mq2.jpg?sqp=CPTB-vYF&amp;rs=AOn4CLCCsEWD4OkHu3U0UnzJ2gcR3koj-A"
+            />
             <Card.Body>
               <Card.Title>Activation Tracker</Card.Title>
               <Card.Text>Built with : Ruby on Rails, Omniauth</Card.Text>

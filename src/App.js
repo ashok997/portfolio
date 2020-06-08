@@ -15,7 +15,6 @@ class App extends React.Component {
           crossorigin="anonymous"
         ></link>
         <header className="App-header"></header>
-        <img src="./public/logo192.png" alt="logo" />
         <Bio></Bio>
         <Projects></Projects>
         <Blogs></Blogs>
