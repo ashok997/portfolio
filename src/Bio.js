@@ -4,11 +4,12 @@ import Alert from "react-bootstrap/Alert";
 class Bio extends React.Component {
   render() {
     return (
-      <div>
-        <Alert variant="primary">
+      <div id="bio">
+        <Alert variant="info">
           <Alert.Heading>About</Alert.Heading>
+          <h3>Hello!</h3>
           <p>
-            Hi, I am a recent graduate of Flatiron School's Online Software
+            I am a recent graduate of Flatiron School's Online Software
             Engineering Program, with background in sales and customer services.
           </p>
           <hr />

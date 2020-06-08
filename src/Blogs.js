@@ -4,7 +4,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 export default class Blogs extends Component {
   render() {
     return (
-      <div>
+      <div id="blogs">
         <h3>Blogs</h3>
         <ListGroup as="ul">
           <ListGroup.Item
