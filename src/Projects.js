@@ -8,10 +8,10 @@ export default class Projects extends Component {
     return (
       <div id="Projects">
         <h3>Projects</h3>
-        <img src="" alt="screenshot" width="500" height="600" />
+        <img src="src/superfans-screenshot.png" />
         <CardDeck>
           <Card style={{ width: "20rem" }}>
-            <Card.Img variant="top" src="superfans-screenshot.png" />
+            <Card.Img variant="top" src="/src/superfans-screenshot.png" />
             <Card.Body>
               <Card.Title>Superfans United</Card.Title>
               <Card.Text>

@@ -14,11 +14,11 @@ class App extends React.Component {
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous"
         ></link>
-        <header className="App-header">
-          <Bio></Bio>
-          <Projects></Projects>
-          <Blogs></Blogs>
-        </header>
+        <header className="App-header"></header>
+        <img src="./public/logo192.png" alt="logo" />
+        <Bio></Bio>
+        <Projects></Projects>
+        <Blogs></Blogs>
       </div>
     );
   }
