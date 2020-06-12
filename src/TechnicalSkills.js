@@ -14,18 +14,31 @@ export default class TechnicalSkills extends Component {
               height="100"
               rounded
             />
-            <Figure.Caption center>JavaScript</Figure.Caption>
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>Java </li>
-            <li>React</li>
+            <Figure.Caption>JavaScript</Figure.Caption>
+            <Figure.Image src="/ruby.png" width="100" height="100" rounded />
+            <Figure.Caption>Ruby</Figure.Caption>
+            <Figure.Image src="/java.png" width="100" height="100" rounded />
+            <Figure.Caption>Java</Figure.Caption>
+            <Figure.Image src="/rails.png" width="100" height="100" rounded />
+            <Figure.Caption>Ruby on Rails</Figure.Caption>
+            <Figure.Image src="/logo512.png" width="100" height="100" rounded />
+            <Figure.Caption>React</Figure.Caption>
+            <Figure.Image src="/html.png" width="100" height="100" rounded />
+            <Figure.Caption center>HTML</Figure.Caption>
+            <Figure.Image src="/css.png" width="100" height="100" rounded />
+            <Figure.Caption center>CSS</Figure.Caption>
+            <Figure.Image
+              src="/bootstrap.png"
+              width="100"
+              height="100"
+              rounded
+            />
+            <Figure.Caption>Bootstrap</Figure.Caption>
+            <Figure.Image src="/git.png" width="100" height="100" rounded />
+            <Figure.Caption center>Git</Figure.Caption>
             <li>Redux</li>
-            <li>Ruby on Rail </li>
-            <li>HTML</li>
-            <li>CSS</li>
+
             <li>SQL</li>
-            <li>Git</li>
-            <li>Bootstrap</li>
           </Figure>
         </Container>
       </div>
