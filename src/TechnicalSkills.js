@@ -3,12 +3,16 @@ import Figure from "react-bootstrap/Figure";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Alert from "react-bootstrap/Alert";
 
 export default class TechnicalSkills extends Component {
   render() {
     return (
       <div>
-        <Container>
+        <Container style={{ paddingTop: 150 }}>
+          <Alert variant="info">
+            <Alert.Heading>Technical Skills</Alert.Heading>
+          </Alert>
           <Figure>
             <Row className="justify-content-md-center">
               <Col md="auto">
@@ -77,6 +81,7 @@ export default class TechnicalSkills extends Component {
                   Redux
                 </Figure.Caption>
               </Col>
+
               <Col md="auto">
                 <Figure.Image
                   src="/images/html.png"

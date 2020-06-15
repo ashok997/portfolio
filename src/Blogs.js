@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 import ListGroup from "react-bootstrap/ListGroup";
 import Container from "react-bootstrap/Container";
+import Alert from "react-bootstrap/Alert";
 
 export default class Blogs extends Component {
   render() {
     return (
       <div id="blogs">
-        <Container>
-          <h3>Blogs</h3>
+        <Container style={{ paddingTop: 50 }}>
+          <Alert variant="info">
+            <Alert.Heading>Blogs</Alert.Heading>
+          </Alert>
           <ListGroup as="ul">
             <ListGroup.Item
               action

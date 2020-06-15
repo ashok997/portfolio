@@ -6,13 +6,16 @@ import screenshot1 from "./screenshot_1.png";
 import screenshot2 from "./screenshot_2.png";
 import screenshot3 from "./screenshot_3.png";
 import Container from "react-bootstrap/Container";
+import Alert from "react-bootstrap/Alert";
 
 export default class Projects extends Component {
   render() {
     return (
       <div id="Projects">
-        <Container>
-          <h3>Projects</h3>
+        <Container style={{ paddingTop: 50 }}>
+          <Alert variant="info">
+            <Alert.Heading>Projects</Alert.Heading>
+          </Alert>
           <CardDeck>
             <Card style={{ width: "30rem" }}>
               <Card.Img variant="top" src={screenshot1} />
