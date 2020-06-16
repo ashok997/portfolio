@@ -8,9 +8,9 @@ import Alert from "react-bootstrap/Alert";
 export default class TechnicalSkills extends Component {
   render() {
     return (
-      <div>
-        <Container style={{ paddingTop: 150 }}>
-          <Alert variant="info">
+      <div style={{ background: "palegreen" }}>
+        <Container style={{ paddingTop: 50, paddingBottom: 50 }}>
+          <Alert variant="success">
             <Alert.Heading>Technical Skills</Alert.Heading>
           </Alert>
           <Figure>

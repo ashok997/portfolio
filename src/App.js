@@ -12,6 +12,7 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header"></header>
         <Navbar></Navbar>
+
         <Bio></Bio>
         <TechnicalSkills></TechnicalSkills>
         <Projects></Projects>
