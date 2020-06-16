@@ -10,6 +10,7 @@ class Bio extends React.Component {
           <Alert variant="info">
             <Alert.Heading>About</Alert.Heading>
           </Alert>
+
           <p>
             I am a recent graduate of Flatiron School's Online Software
             Engineering Program, with background in sales and customer services.
