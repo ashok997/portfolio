@@ -14,13 +14,16 @@ class App extends React.Component {
         <div className="App">
           <header className="App-header"></header>
           <Navbar></Navbar>
-          <Route exact={true} path="/" component={Bio} />
+          <Route exact={true} path="/">
+            <Bio></Bio>
+            <TechnicalSkills></TechnicalSkills>
+            <Projects></Projects>
+            <Blogs></Blogs>
+          </Route>
           <Route path="/bio" component={Bio} />
-
-          {/* <Bio></Bio> */}
-          <TechnicalSkills></TechnicalSkills>
-          <Projects></Projects>
-          <Blogs></Blogs>
+          <Route path="/technicalskills" component={TechnicalSkills} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/blogs" component={Blogs} />
         </div>
       </Router>
     );
