@@ -7,7 +7,7 @@ class Bio extends React.Component {
     return (
       <div style={{ background: "papayawhip" }}>
         <Container style={{ paddingTop: 50, paddingBottom: 50 }}>
-          <Alert variant="info">
+          <Alert variant="dark">
             <Alert.Heading>About</Alert.Heading>
           </Alert>
 

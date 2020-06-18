@@ -6,9 +6,9 @@ import Alert from "react-bootstrap/Alert";
 export default class Blogs extends Component {
   render() {
     return (
-      <div style={{ background: "linen" }}>
+      <div style={{ background: "papayawhip" }}>
         <Container style={{ paddingTop: 50, paddingBotton: 50 }}>
-          <Alert variant="success">
+          <Alert variant="dark">
             <Alert.Heading>Blogs</Alert.Heading>
           </Alert>
           <ListGroup as="ul">

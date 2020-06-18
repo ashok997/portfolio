@@ -11,9 +11,9 @@ import Alert from "react-bootstrap/Alert";
 export default class Projects extends Component {
   render() {
     return (
-      <div style={{ background: "pink" }}>
+      <div style={{ background: "papayawhip" }}>
         <Container style={{ paddingTop: 50, paddingBottom: 50 }}>
-          <Alert variant="warning">
+          <Alert variant="dark">
             <Alert.Heading>Projects</Alert.Heading>
           </Alert>
           <CardDeck>
