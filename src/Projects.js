@@ -25,7 +25,7 @@ export default class Projects extends Component {
                   Built with : React, Redux, Rails, Javascript
                 </Card.Text>
                 <Button
-                  variant="primary"
+                  variant="dark"
                   action
                   href="https://www.youtube.com/watch?v=yOOxsFXYbcM&t=15s"
                 >
@@ -39,7 +39,7 @@ export default class Projects extends Component {
                 <Card.Title>Payment Tracker</Card.Title>
                 <Card.Text>Built with : Rails, Javascript, CSS</Card.Text>
                 <Button
-                  variant="primary"
+                  variant="dark"
                   action
                   href="https://www.youtube.com/watch?v=A8ezaT_sj9I&t=13s"
                 >
@@ -53,7 +53,7 @@ export default class Projects extends Component {
                 <Card.Title>Activation Tracker</Card.Title>
                 <Card.Text>Built with : Ruby on Rails, Omniauth</Card.Text>
                 <Button
-                  variant="primary"
+                  variant="dark"
                   action
                   href="https://www.youtube.com/watch?v=zrCYUwBIV4A&t=4s"
                 >

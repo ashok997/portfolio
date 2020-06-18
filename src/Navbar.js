@@ -7,7 +7,7 @@ export default class Navbar extends Component {
       <div>
         <Nav className="justify-content-center bg-light">
           <Nav.Item>
-            <Nav.Link href="/home"> About</Nav.Link>
+            <Nav.Link href="/bio"> About</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href="/technicalskills">Technical Skills</Nav.Link>
