@@ -1,5 +1,6 @@
 import React from "react";
 import Alert from "react-bootstrap/Alert";
+import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 
 class Bio extends React.Component {
@@ -8,8 +9,14 @@ class Bio extends React.Component {
       <div style={{ background: "papayawhip" }}>
         <Container style={{ paddingTop: 50, paddingBottom: 50 }}>
           <Alert variant="dark">
-            <Alert.Heading>About</Alert.Heading>
+            <Alert.Heading>About Me</Alert.Heading>
           </Alert>
+          <Image
+            src="/images/ashok.jpg"
+            height="200"
+            width="210"
+            roundedCircle
+          ></Image>
 
           <div id="info">
             I am a recent graduate of Flatiron School's Online Software
