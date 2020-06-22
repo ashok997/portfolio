@@ -6,7 +6,7 @@ import Container from "react-bootstrap/Container";
 class Bio extends React.Component {
   render() {
     return (
-      <div style={{ background: "papayawhip" }}>
+      <div style={{ background: "papayawhip", textAlign: "center" }}>
         <Container style={{ paddingTop: 50, paddingBottom: 50 }}>
           <Alert variant="dark">
             <Alert.Heading>About Me</Alert.Heading>
