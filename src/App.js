@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Bio from "./Bio";
 import Projects from "./Projects";
 import Blogs from "./Blogs";
@@ -14,16 +14,18 @@ class App extends React.Component {
         <div className="App">
           <header className="App-header"></header>
           <Navbar></Navbar>
-          <Route exact={true} path="/">
-            <Bio></Bio>
-            <TechnicalSkills></TechnicalSkills>
-            <Projects></Projects>
-            <Blogs></Blogs>
-          </Route>
-          <Route path="/bio" component={Bio} />
-          <Route path="/technicalskills" component={TechnicalSkills} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/blogs" component={Blogs} />
+          <Switch>
+            <Route exact={true} path="/">
+              <Bio></Bio>
+              <TechnicalSkills></TechnicalSkills>
+              <Projects></Projects>
+              <Blogs></Blogs>
+            </Route>
+            <Route path="/bio" component={Bio} />
+            <Route path="/technicalskills" component={TechnicalSkills} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/blogs" component={Blogs} />
+          </Switch>
         </div>
       </Router>
     );
