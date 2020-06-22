@@ -5,7 +5,10 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <Nav className="justify-content-center bg-light">
+        <Nav className="justify-content-center bg-dark">
+          <Nav.Item>
+            <Nav.Link href="/">Home</Nav.Link>
+          </Nav.Item>
           <Nav.Item>
             <Nav.Link href="/bio"> About</Nav.Link>
           </Nav.Item>
