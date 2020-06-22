@@ -7,7 +7,7 @@ export default class Blogs extends Component {
   render() {
     return (
       <div style={{ background: "papayawhip" }}>
-        <Container style={{ paddingTop: 50, paddingBotton: 50 }}>
+        <Container style={{ paddingTop: 50, paddingBottom: 50 }}>
           <Alert variant="dark">
             <Alert.Heading>Blogs</Alert.Heading>
           </Alert>
