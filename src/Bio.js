@@ -7,7 +7,14 @@ class Bio extends React.Component {
   render() {
     return (
       <div style={{ background: "papayawhip", textAlign: "center" }}>
-        <Container style={{ paddingTop: 50, paddingBottom: 50 }}>
+        <Container
+          style={{
+            paddingTop: 50,
+            paddingBottom: 50,
+            fontFamily: "Verdana",
+            fontSize: 25,
+          }}
+        >
           <Alert variant="dark">
             <Alert.Heading>About Me</Alert.Heading>
           </Alert>
@@ -18,18 +25,12 @@ class Bio extends React.Component {
             roundedCircle
           ></Image>
 
-          <div id="info">
-            I am a recent graduate of Flatiron School's Online Software
-            Engineering Program, with background in sales and customer services.
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+          <div id="bio-info">
+            <p>
+              I am a recent graduate of Flatiron School's Online Software
+              Engineering Program, with background in sales and customer
+              services.
+            </p>
           </div>
         </Container>
       </div>
