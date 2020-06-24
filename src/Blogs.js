@@ -4,6 +4,18 @@ import Container from "react-bootstrap/Container";
 import Alert from "react-bootstrap/Alert";
 
 export default class Blogs extends Component {
+  componentDidMount() {
+    fetch(
+      " https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40ashok997"
+    )
+      .then((res) => res.json())
+      .then((result) => {
+        this.setState({
+          blogs: result.items,
+        });
+      });
+  }
+
   render() {
     return (
       <div style={{ background: "papayawhip" }}>
