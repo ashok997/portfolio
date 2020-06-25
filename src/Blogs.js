@@ -4,6 +4,13 @@ import Container from "react-bootstrap/Container";
 import Alert from "react-bootstrap/Alert";
 
 export default class Blogs extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      blogs: [],
+    };
+  }
+
   componentDidMount() {
     fetch(
       " https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40ashok997"
@@ -23,6 +30,9 @@ export default class Blogs extends Component {
           <Alert variant="dark">
             <Alert.Heading>Blogs</Alert.Heading>
           </Alert>
+          {this.state.blogs.map((blog) => (
+            <p>{blog.title}</p>
+          ))}
           <ListGroup as="ul">
             <ListGroup.Item
               action
