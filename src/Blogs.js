@@ -4,8 +4,8 @@ import Container from "react-bootstrap/Container";
 import Alert from "react-bootstrap/Alert";
 
 export default class Blogs extends Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.state = {
       blogs: [],
     };
@@ -35,7 +35,9 @@ export default class Blogs extends Component {
           {this.state.blogs.map((blog) => (
             <ListGroup as="ul">
               <ListGroup.Item action href={blog.link}>
-                <p>{blog.title}</p>
+                <>
+                  {blog.title} - published {blog.pubDate.split(" ")[0]}
+                </>
               </ListGroup.Item>
             </ListGroup>
           ))}
