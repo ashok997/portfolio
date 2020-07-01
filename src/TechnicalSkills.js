@@ -128,7 +128,7 @@ export default class TechnicalSkills extends Component {
               </Col>
               <Col md="auto">
                 <Figure.Image
-                  src="/images/sql.jpeg"
+                  src="/images/sql.png"
                   width="100"
                   height="100"
                   rounded
