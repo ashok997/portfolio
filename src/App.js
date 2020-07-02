@@ -5,6 +5,7 @@ import Projects from "./Projects";
 import Blogs from "./Blogs";
 import TechnicalSkills from "./TechnicalSkills";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends React.Component {
@@ -26,6 +27,7 @@ class App extends React.Component {
             <Route path="/projects" component={Projects} />
             <Route path="/blogs" component={Blogs} />
           </Switch>
+          <Footer></Footer>
         </div>
       </Router>
     );
