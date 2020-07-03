@@ -12,7 +12,7 @@ class Bio extends React.Component {
             paddingTop: 50,
             paddingBottom: 50,
             fontFamily: "Verdana",
-            fontSize: 25,
+            fontSize: 22,
           }}
         >
           <Alert variant="dark">
@@ -27,9 +27,13 @@ class Bio extends React.Component {
 
           <div id="bio-info">
             <p>
-              I am a recent graduate of Flatiron School's Online Software
-              Engineering Program, with background in sales and customer
-              services.
+              I am a Software Engineer base in San Antonio, TX. I mostly use
+              JavaScript, Java, Ruby on Rails to create my applications. In
+              addtion to that, I am also familier with HTML, CSS, React, Redux,
+              Bootstrap and other libraries. I am also a recent graduate of
+              Flatiron School Software Engineering program. My love for coding
+              stems from my affinity toward gaming and it helps me bring that
+              childlike enthusiam everytime I sit down to code!
             </p>
           </div>
         </Container>
