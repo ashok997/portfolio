@@ -16,52 +16,66 @@ export default class Projects extends Component {
           <Alert variant="dark">
             <Alert.Heading>Projects</Alert.Heading>
           </Alert>
-          <CardDeck>
-            <Card style={{ width: "30rem" }}>
-              <Card.Img variant="top" src={screenshot1} />
-              <Card.Body>
-                <Card.Title>Superfans United</Card.Title>
-                <Card.Text>
-                  Built with : React, Redux, Rails, Javascript
-                </Card.Text>
-                <Button
-                  variant="dark"
-                  action
-                  href="https://www.youtube.com/watch?v=yOOxsFXYbcM&t=15s"
-                >
-                  Watch Demo
-                </Button>
-              </Card.Body>
-            </Card>
-            <Card style={{ width: "20rem" }}>
-              <Card.Img variant="top" src={screenshot2} />
-              <Card.Body>
-                <Card.Title>Payment Tracker</Card.Title>
-                <Card.Text>Built with : Rails, Javascript, CSS</Card.Text>
-                <Button
-                  variant="dark"
-                  action
-                  href="https://www.youtube.com/watch?v=A8ezaT_sj9I&t=13s"
-                >
-                  Watch Demo
-                </Button>
-              </Card.Body>
-            </Card>
-            <Card style={{ width: "20rem" }}>
-              <Card.Img variant="top" src={screenshot3} />
-              <Card.Body>
-                <Card.Title>Activation Tracker</Card.Title>
-                <Card.Text>Built with : Ruby on Rails, Omniauth</Card.Text>
-                <Button
-                  variant="dark"
-                  action
-                  href="https://www.youtube.com/watch?v=zrCYUwBIV4A&t=4s"
-                >
-                  Watch Demo
-                </Button>
-              </Card.Body>
-            </Card>
-          </CardDeck>
+
+          <Card>
+            <Card.Header> Superfans United </Card.Header>
+            <Card.Img variant="top" src={screenshot1} />
+            <Card.Body>
+              <Card.Title>
+                Built with : React, Redux, Rails, Javascript Single Page
+              </Card.Title>
+              <Card.Text>
+                <li>
+                  This application the enable users to 'collect' characters
+                  cards. Users can then upvote, downvote or comments on those
+                  characters
+                </li>
+                <li>
+                  Designed application with Rails backend and Javascript
+                  frontend with the content from marvel api
+                </li>
+                <li>
+                  Utilized React and Redux for state management of the
+                  application and used react bootstrap for styling on the pages
+                </li>
+              </Card.Text>
+              <Button
+                variant="dark"
+                action
+                href="https://www.youtube.com/watch?v=yOOxsFXYbcM&t=15s"
+              >
+                Watch Demo
+              </Button>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src={screenshot2} />
+            <Card.Body>
+              <Card.Title>Payment Tracker</Card.Title>
+              <Card.Text>Built with : Rails, Javascript, CSS</Card.Text>
+              <Button
+                variant="dark"
+                action
+                href="https://www.youtube.com/watch?v=A8ezaT_sj9I&t=13s"
+              >
+                Watch Demo
+              </Button>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Img variant="top" src={screenshot3} />
+            <Card.Body>
+              <Card.Title>Activation Tracker</Card.Title>
+              <Card.Text>Built with : Ruby on Rails, Omniauth</Card.Text>
+              <Button
+                variant="dark"
+                action
+                href="https://www.youtube.com/watch?v=zrCYUwBIV4A&t=4s"
+              >
+                Watch Demo
+              </Button>
+            </Card.Body>
+          </Card>
         </Container>
       </div>
     );
