@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import CardDeck from "react-bootstrap/CardDeck";
 import screenshot1 from "./screenshot_1.png";
 import screenshot2 from "./screenshot_2.png";
 import screenshot3 from "./screenshot_3.png";
@@ -25,19 +24,24 @@ export default class Projects extends Component {
                 Built with : React, Redux, Rails, Javascript Single Page
               </Card.Title>
               <Card.Text>
-                <li>
-                  This application the enable users to 'collect' characters
-                  cards. Users can then upvote, downvote or comments on those
-                  characters
-                </li>
-                <li>
-                  Designed application with Rails backend and Javascript
-                  frontend with the content from marvel api
-                </li>
-                <li>
-                  Utilized React and Redux for state management of the
-                  application and used react bootstrap for styling on the pages
-                </li>
+                <Alert variant="dark">
+                  <p>
+                    This application the enable users to 'collect' characters
+                    cards. Users can then upvote, downvote or comments on those
+                    characters
+                  </p>
+                  <hr />
+                  <p>
+                    Designed application with Rails backend and Javascript
+                    frontend with the content from marvel api
+                  </p>
+                  <hr />
+                  <p>
+                    Utilized React and Redux for state management of the
+                    application and used react bootstrap for styling on the
+                    pages
+                  </p>
+                </Alert>
               </Card.Text>
               <Button
                 variant="dark"
