@@ -34,7 +34,7 @@ export default class Blogs extends Component {
           </Alert>
           {this.state.blogs.map((blog) => (
             <ListGroup as="ul">
-              <ListGroup.Item action href={blog.link}>
+              <ListGroup.Item action href={blog.link} target="_blank">
                 <>
                   {blog.title} - published {blog.pubDate.split(" ")[0]}
                 </>
