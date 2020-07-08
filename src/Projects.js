@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Card, { CardHeader } from "react-bootstrap/Card";
+import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import screenshot1 from "./screenshot_1.png";
 import screenshot2 from "./screenshot_2.png";
@@ -54,12 +54,13 @@ export default class Projects extends Component {
             </Card.Body>
           </Card>
           <Card>
-            <Card.Header>Payment Tracker</Card.Header>
             <Card.Img variant="top" src={screenshot2} />
+            <Card.Header>Payment Tracker</Card.Header>
             <Card.Body>
-              <Card.Title>Built with : Rails, Javascript, CSS</Card.Title>
               <Card.Text>
                 <Alert variant="dark">
+                  <p>Built with : Rails, Javascript, CSS</p>
+                  <hr />
                   <p>
                     This application will allow users to keep track of payments
                     made on credit cards
@@ -86,12 +87,13 @@ export default class Projects extends Component {
             </Card.Body>
           </Card>
           <Card>
-            <Card.Header>Activation Tracker</Card.Header>
             <Card.Img variant="top" src={screenshot3} />
+            <Card.Header>Activation Tracker</Card.Header>
             <Card.Body>
-              <Card.Title>Built with : Ruby on Rails, Omniauth</Card.Title>
               <Card.Text>
                 <Alert variant="dark">
+                  <p>Built with : Ruby on Rails, Omniauth</p>
+                  <hr />
                   <p>
                     This application will allow users to create and keep track
                     of all the phones that they have in their store and also
