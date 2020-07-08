@@ -16,7 +16,7 @@ export default class Projects extends Component {
             <Alert.Heading>Projects</Alert.Heading>
           </Alert>
 
-          <Card>
+          <Card className="mb-4">
             <Card.Img variant="top" src={screenshot1} />
             <Card.Header>Superfans United</Card.Header>
             <Card.Body>
@@ -53,7 +53,7 @@ export default class Projects extends Component {
               </Button>
             </Card.Body>
           </Card>
-          <Card>
+          <Card className="mb-4">
             <Card.Img variant="top" src={screenshot2} />
             <Card.Header>Payment Tracker</Card.Header>
             <Card.Body>
@@ -86,7 +86,7 @@ export default class Projects extends Component {
               </Button>
             </Card.Body>
           </Card>
-          <Card>
+          <Card className="mb-4">
             <Card.Img variant="top" src={screenshot3} />
             <Card.Header>Activation Tracker</Card.Header>
             <Card.Body>
