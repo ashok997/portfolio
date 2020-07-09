@@ -48,6 +48,7 @@ export default class Projects extends Component {
                 variant="dark"
                 action
                 href="https://www.youtube.com/watch?v=yOOxsFXYbcM&t=15s"
+                target="_blank"
               >
                 Watch Demo
               </Button>
@@ -81,6 +82,7 @@ export default class Projects extends Component {
                 variant="dark"
                 action
                 href="https://www.youtube.com/watch?v=A8ezaT_sj9I&t=13s"
+                target="_blank"
               >
                 Watch Demo
               </Button>
@@ -117,6 +119,7 @@ export default class Projects extends Component {
                 variant="dark"
                 action
                 href="https://www.youtube.com/watch?v=zrCYUwBIV4A&t=4s"
+                target="_blank"
               >
                 Watch Demo
               </Button>
