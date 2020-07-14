@@ -35,6 +35,12 @@ class Bio extends React.Component {
               stems from my affinity toward gaming and it helps me bring that
               childlike enthusiam everytime I sit down to code!
             </p>
+            <hr />
+            <div>
+              <a href="https://medium.com/@ashok997"> Medium |</a>
+              <a href="https://github.com/ashok997"> Github |</a>
+              <a href="https://www.linkedin.com/in/ashokmaharjan/"> LinkedIn</a>
+            </div>
           </div>
         </Container>
       </div>
