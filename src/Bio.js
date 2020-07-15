@@ -37,9 +37,30 @@ class Bio extends React.Component {
             </p>
             <hr />
             <div>
-              <a href="https://medium.com/@ashok997"> Medium |</a>
-              <a href="https://github.com/ashok997"> Github |</a>
-              <a href="https://www.linkedin.com/in/ashokmaharjan/"> LinkedIn</a>
+              <a href="https://medium.com/@ashok997">
+                <Image
+                  src="/images/medium.png"
+                  height="50"
+                  width="50"
+                  rounded
+                />
+              </a>
+              <a href="https://github.com/ashok997">
+                <Image
+                  src="/images/github.png"
+                  height="80"
+                  width="80"
+                  rounded
+                />
+              </a>
+              <a href="https://www.linkedin.com/in/ashokmaharjan/">
+                <Image
+                  src="/images/LinkedIn.png"
+                  height="50"
+                  width="50"
+                  rounded
+                />
+              </a>
             </div>
           </div>
         </Container>
