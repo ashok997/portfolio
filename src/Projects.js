@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import screenshot1 from "./screenshot_1.png";
-import screenshot2 from "./screenshot_2.png";
-import screenshot3 from "./screenshot_3.png";
+import superfansUnitedScreenshot from "./screenshot_1.png";
+import paymentTrackerScreenshot from "./screenshot_2.png";
+import activationScreenshot from "./screenshot_3.png";
 import Container from "react-bootstrap/Container";
 import Alert from "react-bootstrap/Alert";
 
@@ -17,7 +17,7 @@ export default class Projects extends Component {
           </Alert>
 
           <Card className="mb-4">
-            <Card.Img variant="top" src={screenshot1} />
+            <Card.Img variant="top" src={superfansUnitedScreenshot} />
             <Card.Header>Superfans United</Card.Header>
             <Card.Body>
               <Card.Text>
@@ -27,19 +27,19 @@ export default class Projects extends Component {
                   </p>
                   <hr />
                   <p>
-                    This application the enable users to 'collect' characters
-                    cards. Users can then upvote, downvote or comments on those
+                    This application enable users to 'collect' characters cards.
+                    Users can then upvote, downvote or comment on those
                     characters
                   </p>
                   <hr />
                   <p>
                     Designed application with Rails backend and Javascript
-                    frontend with the content from marvel api
+                    frontend with the content from marvel API
                   </p>
                   <hr />
                   <p>
                     Utilized React and Redux for state management of the
-                    application and used react bootstrap for styling on the
+                    application and used React Bootstrap for styling on the
                     pages
                   </p>
                 </Alert>
@@ -55,7 +55,7 @@ export default class Projects extends Component {
             </Card.Body>
           </Card>
           <Card className="mb-4">
-            <Card.Img variant="top" src={screenshot2} />
+            <Card.Img variant="top" src={paymentTrackerScreenshot} />
             <Card.Header>Payment Tracker</Card.Header>
             <Card.Body>
               <Card.Text>
@@ -89,7 +89,7 @@ export default class Projects extends Component {
             </Card.Body>
           </Card>
           <Card className="mb-4">
-            <Card.Img variant="top" src={screenshot3} />
+            <Card.Img variant="top" src={activationScreenshot} />
             <Card.Header>Activation Tracker</Card.Header>
             <Card.Body>
               <Card.Text>
