@@ -30,7 +30,7 @@ class Bio extends React.Component {
               I am a Software Engineer based in San Antonio, TX. I mostly use
               JavaScript, Java and Ruby on Rails to create my applications. In
               addition to that, I am also familiar with HTML, CSS, React, Redux,
-              Bootstrap and other libraries. A recent graduate of Flatiron
+              Bootstrap, and Springs framework. A recent graduate of Flatiron
               School Software Engineering program, my love for coding stems from
               my affinity toward gaming. It helps me bring that childlike
               enthusiam, everytime I sit down to code!
